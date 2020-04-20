@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import dayjs from 'dayjs';
-//var quarterOfYear = require('dayjs/plugin/quarterOfYear')
-//dayjs.extend(quarterOfYear)
+var quarterOfYear = require('dayjs/plugin/quarterOfYear')
+dayjs.extend(quarterOfYear)
 
 function App() {
 var now = dayjs();
